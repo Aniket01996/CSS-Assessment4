@@ -1,0 +1,195 @@
+.offerings {
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    border: 1px solid white;
+    background-image: linear-gradient(to right,red,green,yellow);
+}
+.box {
+    width: 500px;
+    height: 60px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    margin-left: 27vw;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.container {
+    width: 100vw;
+    height: 120px;
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: aquamarine;
+
+}
+
+.lorem1 {
+    position: absolute;
+    margin-left: 66%;
+    width: 350px;
+    height: 55px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.lorem2 {
+    position: absolute;
+    margin-left: 33%;
+    width: 350px;
+    height: 55px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.lorem3 { 
+    
+    width: 350px;
+    height: 55px;
+    border: 2px solid blue;
+    border-radius: 5px;
+
+}
+
+.lorem4 {
+    position: absolute;
+    margin-left: 33%;
+    width: 350px;
+    height: 55px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.performer {
+    margin-top: 0px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    border: 1px solid white;
+    background-image: linear-gradient(to right,red,yellow,red);
+    font-size: small;
+}
+
+.marks-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+    width: 100vw;
+    height: 250px;
+    border: 1px solid white;
+    background-image: radial-gradient(blue,green);
+}
+.akash {
+   width: 180px;
+   height: 80px;
+   border: 4px solid red;
+   border-radius: 10px;
+   background-color: gold;
+   text-align: center;
+
+}
+
+.rishav {
+    width: 180px;
+   height: 80px;
+   border: 4px solid red;
+   border-radius: 10px;
+   background-color: gold;
+   text-align: center;
+
+}
+
+.gaurav {
+    width: 180px;
+   height: 80px;
+   border: 4px solid red;
+   border-radius: 10px;
+   background-color: gold;
+   text-align: center;
+
+}
+
+.shivam {
+    width: 180px;
+   height: 80px;
+   border: 4px solid red;
+   border-radius: 10px;
+   background-color: gold;
+   text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    margin: 20px auto;
+    height: 250px;
+    border: 2px solid white;
+    grid-template-rows: 30px 60px 100px 30px;
+    grid-template-columns: repeat(3,1fr)100px;
+    grid-gap: 10px;
+
+}
+.red {
+    grid-column: 1/-1;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+.green {
+    
+    font-size: larger;
+    background-color: lime;
+    color: white;
+    text-align: center;
+   
+}
+
+.blue {
+    
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
+
+.purple {
+    
+    font-size: large;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+.orange {
+    grid-column: 1/4;
+    font-size: larger;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.black {
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: x-small;
+    background-color:black;
+    color: white;
+    text-align: center;
+
+}
+
+.final {
+    grid-column: 1/-1;
+    background-color: aquamarine;
+    height: 20px;
+    text-align: center;
+}
